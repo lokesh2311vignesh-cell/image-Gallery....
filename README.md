@@ -1,63 +1,16 @@
-# Image Gallery Website
+# React + Vite
 
-A responsive and user-friendly **Image Gallery Website** built using **React.js**. This project allows users to view and explore a collection of images through a clean and visually appealing gallery interface.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🚀 Features
+Currently, two official plugins are available:
 
-* 🖼️ Display images in a responsive gallery layout
-* 📱 Fully responsive design for desktop, tablet, and mobile
-* ⚛️ Built with React.js components
-* 🎨 Custom styling using CSS
-* 📂 Organized React project structure
-* ⚡ Fast and interactive user experience
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 🛠️ Technologies Used
+## React Compiler
 
-* **React.js**
-* **JavaScript**
-* **HTML5**
-* **CSS3**
-* **npm**
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 📁 Project Structure
+## Expanding the ESLint configuration
 
-```text
-image-gallery/
-├── src/
-├── package.json
-├── index.html
-├── index.css
-└── README.md
-```
-
-## ▶️ Getting Started
-
-Clone the repository and install the required dependencies:
-
-```bash
-npm install
-```
-
-Start the development server:
-
-```bash
-npm start
-```
-
-The website will then be available in your browser.
-
-## 🎯 Purpose
-
-This project was created to practice **React.js, component-based development, responsive UI design, and CSS styling** while building a simple and attractive image gallery.
-
-## 📌 Future Improvements
-
-* Add image search functionality
-* Add image categories and filters
-* Add image preview/lightbox
-* Add animations and transitions
-* Add an image upload feature
-
-## 👨‍💻 Author
-
-Developed as a React.js project for learning and practicing modern frontend development.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
